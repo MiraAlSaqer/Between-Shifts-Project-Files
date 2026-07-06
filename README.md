@@ -37,4 +37,5 @@ Between Shifts relies on a decoupled, event-driven architecture where player con
     Implements the IInteractable interface to handle spatial state configurations. It seamlessly bridges gameplay and scene transitions by handling local translation shifts, playing contextual audio profiles, locking player scripts behind prompt windows, and initiating asset scene loading loops.
 
 *   **AlarmClock & LeahInteract**
+
     Dialogue monitoring controllers designed to freeze character movement parameters dynamically upon interaction. They handle frame by frame checking routines that lock user locomotion until associated dialogue UI panels are fully deactivated.
